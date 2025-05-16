@@ -5,14 +5,14 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0;
+    background-color: #8d12a5;
     }
 
 figure {
-    background-color: #8d12a5;
+    background-color: #e5caeb;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(145, 51, 51, 0.349);
     text-align: center;
     }
 
@@ -31,15 +31,11 @@ a, button {
     background-color: #63064449;
     color: #050a52;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 15px;
     cursor: pointer;
     text-decoration: none; 
-    display: inline-block;
-    }
-
-a:hover, button:hover {
-    background-color: #63064449;
+    display: block;
     }
 
 img {
@@ -48,4 +44,3 @@ img {
     display: block; 
     margin-bottom: 10px; 
     }
-
