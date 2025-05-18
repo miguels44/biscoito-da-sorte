@@ -9,11 +9,11 @@ body {
     }
 
 figure {
-    background-color: #e5caeb;
+    background-color: #ffffff;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(145, 51, 51, 0.349);
     text-align: center;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
     }
 
 h1 {
@@ -27,13 +27,10 @@ p {
     margin-bottom: 20px;
     }
 
-a, button {
-    background-color: #63064449;
-    color: #050a52;
+a, button { 
     border: none;
     padding: 20px;
     border-radius: 15px;
-    cursor: pointer;
     text-decoration: none; 
     display: block;
     }
