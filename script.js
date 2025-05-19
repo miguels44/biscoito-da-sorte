@@ -1,4 +1,4 @@
-var sortes = [
+let sortes = [
     "Sua gentileza encontrará novos lares este ano.",
     "Sua gentileza dará força aos outros.",
     "Você tem uma personalidade vibrante.",
@@ -16,7 +16,7 @@ var sortes = [
 ]
 
 function newSortes(){
-    var randomFrases = Math.floor(Math.random() * (sortes.length))
+    let randomFrases = Math.floor(Math.random() * (sortes.length))
     document.getElementById('sortesDisplay').innerHTML = sortes[randomFrases]
 }
 newSortes()
