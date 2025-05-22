@@ -19,6 +19,7 @@ figure {
 h1 {
     color: #333;
     margin-bottom: 15px;
+    user-select: none;
     }
 
 .mensagem-sorte {
@@ -29,6 +30,7 @@ h1 {
     margin-bottom: 10px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.644);
+    user-select: none;
     }
 
 button {
@@ -56,6 +58,7 @@ a {
     border-radius: 4px;
     text-decoration: none;
     display: block;
+    user-select: none;
     }
 
 img {
@@ -66,4 +69,5 @@ img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    user-select: none;
     }

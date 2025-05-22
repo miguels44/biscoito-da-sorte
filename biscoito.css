@@ -19,12 +19,7 @@ figure {
 h1 {
     color: #333;
     margin-bottom: 15px;
-    }
-
-p {
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    user-select: none;
     }
 
 a, button { 
