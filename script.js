@@ -12,7 +12,7 @@ let sortes = [
     "O que parece um fim pode ser um novo começo disfarçado.",
     "Você é mais forte do que imagina.",
     "Uma surpresa positiva está a caminho.",
-    "Se alguém está tão cansado que não possa te dar um sorriso,<br> então deixa-lhe o teu."
+    "Se alguém está tão cansado que não<br> possa te dar um sorriso,<br> então deixa-lhe o teu."
 ]
 
 function newSortes(){

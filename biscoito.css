@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: #8d12a5;
-    }
+}
 
 figure {
     background-color: #ffffff;
@@ -14,25 +14,24 @@ figure {
     border-radius: 8px;
     text-align: center;
     box-shadow: 0 5px 10px rgb(0, 0, 0);
-    }
+}
 
 h1 {
     color: #333;
     margin-bottom: 15px;
     user-select: none;
-    }
+}
 
 a, button { 
     border: none;
     padding: 20px;
     border-radius: 15px;
-    text-decoration: none; 
     display: block;
-    }
+}
 
 img {
     max-width: 100%;
     height: auto;
     display: block; 
     margin-bottom: 10px; 
-    }
+}
