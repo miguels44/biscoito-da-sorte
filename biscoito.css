@@ -18,20 +18,18 @@ figure {
 
 h1 {
     color: #333;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     user-select: none;
 }
 
-a, button { 
+button, a, img { 
     border: none;
     padding: 20px;
     border-radius: 15px;
     display: block;
+    margin-bottom: 10px;
 }
-
-img {
-    max-width: 100%;
-    height: auto;
-    display: block; 
-    margin-bottom: 10px; 
-}
+/* 
+footer, a{
+    color: black;
+} */
