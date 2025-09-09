@@ -1,24 +1,44 @@
-body {
+body{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 10;
     background-color: #8d12a5;
 }
 
-figure {
+#principal{
     background-color: #ffffff;
     padding: 30px;
-    border-radius:8px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    border-radius: 8px;
     text-align: center;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
 }
 
-h1 {
+#principal, h1{
     color: #333;
     margin-bottom: 20px;
     user-select: none;
+}
+
+#abrirSorte, #biscoito{
+    background-color: #ffffff;
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#secundaria{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
 }
 
 .mensagem-sorte {
@@ -31,19 +51,18 @@ h1 {
     user-select: none;
 }
 
-button, img {
+#novaSorte, img{
     background-color: #ffffff;
     border: none;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
-    display: block;
     width: 100%;
     height: 100%;
     justify-content: center;
 }
 
-.outra-sorte {
-    background-color: rgb(230, 171, 93);
+.outra-sorte{
+    background-color: rgb(230, 193, 93);
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 10px;
@@ -51,7 +70,7 @@ button, img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.644)
 }
 
-a {
+.outra-sorte, a{
     color: #01020e;
     border: none;
     padding: 15px;

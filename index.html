@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biscoito da sorte</title>
-    <link rel="stylesheet" href="/css/biscoito.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" type="imagex/png" href="/assets/biscoito.ico">
 </head>
 <body>
-    <figure>
+    <figure id="principal">
 
         <h1>Qual sua sorte hoje?</h1>
 
-        <button">
-            <a href="./index_s.html">
+        <button id="abrirSorte" onclick="openCoockie()">
             <img src="/assets/biscoito.png">
-            </a>
         </button>
 
     </figure>
+
+    <figure id="secundaria" style="display: none;">
+        <h1>Essa é sua sorte de hoje:</h1>
+        <div class="mensagem-sorte" id="sortesDisplay"></div>
+        <button id="novaSorte" onclick="novaSorte()">
+            <img src="/assets/sorte.PNG" alt="gerar nova sorte">
+        </button>
+        <div class="outra-sorte"> 
+            <a href="#" id="voltar">Quer outra sorte?</a> 
+        </div>
+
+    </figure>
+
+    <script src="/script.js"></script>
 </body>
 </html>

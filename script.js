@@ -1,4 +1,4 @@
-let sortes = [
+const sortes = [
     "Sua gentileza encontrará novos lares este ano.",
     "Sua gentileza dará força aos outros.",
     "Você tem uma personalidade vibrante.",
@@ -15,8 +15,19 @@ let sortes = [
     "Se alguém está tão cansado que não<br> possa te dar um sorriso,<br> então deixa-lhe o teu."
 ]
 
-function newSortes(){
-    let randomFrases = Math.floor(Math.random() * (sortes.length))
+function gerarSortes(){
+    const randomFrases = Math.floor(Math.random() * (sortes.length))
     document.getElementById('sortesDisplay').innerHTML = sortes[randomFrases]
 }
-newSortes()
+
+function openCoockie(){
+    document.getElementById('principal').style.display= 'none'
+    document.getElementById('secundaria').style.display = 'block'
+    gerarSortes()
+}
+
+document.getElementById('voltar').onclick = function(e){
+    e.preventDefault()
+    document.getElementById('secundaria').style.display = 'none'
+    document.getElementById('principal').style.display = 'block'
+}
